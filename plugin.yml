@@ -1,0 +1,13 @@
+name: HammerEnchant
+version: '1.0'
+main: de.hammer.HammerPlugin
+api-version: '1.21'
+description: Hammer-Verzauberung für Spitzhacken und Schaufeln (3x3, 4x4, 5x5)
+commands:
+  hammer:
+    description: Hammer-Verzauberung auf das Werkzeug in der Hand legen
+    usage: /hammer <3|4|5|off> [Spieler]
+permissions:
+  hammer.admin:
+    description: Erlaubt die Nutzung von /hammer
+    default: op
